@@ -11,7 +11,7 @@ public class Xpath {
 		
 		System.setProperty("webdriver.chrome.driver","G:\\\\important software for testing\\\\chromedriver_win32\\\\chromedriver.exe ");
 		WebDriver driver=new ChromeDriver();
-		driver.get("https://vctcpune.com/selenium/practice.html");
+	//add new command	driver.get("https://vctcpune.com/selenium/practice.html");
 		
 		driver.manage().window().maximize();
 		
